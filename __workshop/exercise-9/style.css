@@ -6,10 +6,28 @@ img {
 }
 
 .img2 {
+  position: absolute;
+  top:0px;
+  left:0px;
+  z-index: -1;
 }
 
 .img3 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
 }
-
+/* Since the window is too big, we must just reduce the size of the web window to make the overlap with the whale and the dog. 
+If not the overlap doesn't happened with a whale place at right: 0px and bottom: 0px.
+I could also have put the whale to this position to make it overlap anytime:
 .img4 {
+  position: absolute;
+  right: 300px;
+  bottom: 0px;
+}
+*/
+.img4 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
