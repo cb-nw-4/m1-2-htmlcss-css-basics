@@ -1,1 +1,27 @@
-/* ...crickets... */
+body {
+    font-family: Comic Sans MS, sans-serif;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .subtitle {
+    text-align: center
+  }
+  
+  .content {
+    text-align: left;
+  }
+  
+  .emph {
+    font-style: italic;
+  }
