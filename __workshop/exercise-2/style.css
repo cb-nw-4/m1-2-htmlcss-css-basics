@@ -2,10 +2,13 @@ p {
 }
 
 .one {
+    background: pink;
 }
 
 .two {
+    background: fuchsia;
 }
 
 .three {
+    font-size: 5em;
 }
