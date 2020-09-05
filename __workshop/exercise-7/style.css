@@ -30,7 +30,7 @@ h3{
 }
 
 .col {
-  padding: 10px;
+  padding: 20px;
   border:1px solid #021a40;
   border-style: dashed;
   background-color:#D1D1D1;
@@ -41,6 +41,7 @@ h3{
 .image {
   max-height: 125px;
   max-width: 225px;
+  border-radius: 5px;
 
 }
 ul{
