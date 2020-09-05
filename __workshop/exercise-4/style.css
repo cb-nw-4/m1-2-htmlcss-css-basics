@@ -21,10 +21,14 @@ li {
 #content {
   text-decoration: underline;
   background: grey;
+  
 }
 
 .monospaced {
   font-family: monospace;
+}
+h2{
+  font-weight: 500;
 }
 
 h1,
