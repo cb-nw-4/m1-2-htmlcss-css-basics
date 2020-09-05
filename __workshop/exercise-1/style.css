@@ -1,3 +1,11 @@
 button {
-  /* Styles here */
+  color: white;
+  background: blue;
+  padding: 2em 3em;
+  border: .5rem;
+  border-radius: 20px;
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+  text-align: justify;
 }
