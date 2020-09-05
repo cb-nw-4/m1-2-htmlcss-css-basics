@@ -1,1 +1,24 @@
 /* ...crickets... */
+
+
+body{
+    font-family: "Comic Sans MS";
+}
+.title{
+    font-size: x-large;
+    text-align: center;
+    font-style: normal;
+    margin: 0px
+    
+}
+
+.subtitle{
+    font-size: large;
+    text-align: center;
+    margin: 0px;
+}
+
+.content{
+    font-size: small;
+    font-style: oblique 10deg ;
+}
