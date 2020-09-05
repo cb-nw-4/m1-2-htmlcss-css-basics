@@ -23,19 +23,36 @@ body {
 
 h1,
 h2 {
+  font-family: 'Bangers', cursive;
 }
 
 h1 {
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
 }
 
 h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1em;
 }
 
 .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .col {
+  border-style: dashed;
+  border-width: thin;
+  list-style-type:none;
+  background-color:#eaeaee;
 }
 
 .image {
+  height:150px;
+  margin: auto;
+  padding:15px;
 }
