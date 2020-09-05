@@ -1,20 +1,17 @@
-#centered {
+.centered {
   text-align: center;
 }
 
-.title {
-  font-size: 3rem;
+#title {
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 subtitle {
   font-size: 1.5rem;
 }
 
-.div {
-  background-color: gray;
-}
-
-#li {
+li {
   list-style-type: none;
 }
 
@@ -23,13 +20,18 @@ subtitle {
   background: grey;
 }
 
-monospaced {
+.monospaced {
   font-family: monospace;
 }
 
 h1,
 p,
-h2 {
+h2{
   background: grey;
   margin: 0;
+}
+
+h2{
+  font-size: 1em;
+  font-weight: normal;
 }
