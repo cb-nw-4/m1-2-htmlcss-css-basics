@@ -8,7 +8,7 @@ h2,
 p,
 ul,
 li {
-  margin: 0;
+  margin:0;
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -19,23 +19,43 @@ li {
 /* ADD CSS BELOW */
 
 body {
+
 }
 
 h1,
 h2 {
+  font-family: 'Bangers', cursive;
+  text-align: center;
 }
 
 h1 {
+font-size: 40px;
 }
 
 h2 {
+  font-size: 30px;
 }
 
 .row {
+  display: flex;
+  margin-top: 20px;
 }
 
 .col {
+  padding: 5px;
+  border:1px solid #021a40;
+  border-style: dashed;
+  background-color:#D1D1D1;
 }
 
 .image {
+  max-height: 150px;
+  max-width: 250px;
+  padding:10px;
+
 }
+ul{
+  list-style-type: none;
+  justify-content: space-around;
+}
+
