@@ -52,6 +52,5 @@ h2 {
 }
 
 .image {  
-  height: 150px;
-  object-fit: contain;
+  height: 150px; 
 }
