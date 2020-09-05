@@ -17,3 +17,64 @@ li {
 }
 
 /* ADD CSS BELOW */
+body
+{
+  font-family: 'Bangers', cursive;
+  max-width:1000px;
+  box-sizing:border-box;
+}
+
+li
+{
+  display: inline-block;
+}
+
+.image
+{
+  width: auto;
+  height: 100px;
+  padding: 0px 5px 0px 5px;
+}
+
+.cell
+{
+  background: lightgray;
+  border-style: dashed;
+  border-width: 1px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 1px 0px 1px;
+
+
+}
+
+.title
+{
+  text-align:center;
+  font-size: 36px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.subtitle
+{
+  text-align:left;
+  font-size: 24px;
+  margin-left: 55px;
+
+}
+
+.subsubtitle
+{
+  text-align:center;
+  font-size: 16px;
+  padding: 10px 0px 10px 0px;
+
+}
+
+.row
+{
+margin-left: 50px;
+margin-top: 15px;
+margin-bottom: 15px;
+
+}
