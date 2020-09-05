@@ -1,4 +1,8 @@
 button {
   color: white;
   background: blue;
+  border: none; 
+  border-radius: 15px;
+  padding: 35px 50px;
+  font-size: 22px;
 }
