@@ -3,5 +3,19 @@ body {
 }
 
 button {
-  /* Solve me */
+  background-color: blue;
+  border: none;
+  padding: 20px 30px;
+  color: white;
+  border-radius: 10px;
+  transition: all .2s ease-in-out; 
+}
+
+button:active {
+  transform: scale(0.85, 0.85);
+}
+
+button:focus {
+  background-color:darkblue; 
+  outline: none;
 }
