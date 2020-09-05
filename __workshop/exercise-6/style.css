@@ -23,19 +23,42 @@ body {
 
 h1,
 h2 {
+  font-family: 'Bangers', cursive;
+  text-align: center;
 }
 
 h1 {
+  font-size: 35px;
 }
 
 h2 {
+  font-size: 18px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
 }
 
 .row {
+
 }
 
 .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 190px;
+  width: auto;
+  border: 2px dashed #989898;
+  border-radius: 2px;
+  padding: 10px 15px 5px 15px;
+  margin: 50px;
+  background-color: #E8E8E8;
 }
 
 .image {
+  width: auto;
+  height: 150px;
+  margin: 10px 0px 10px 0px;
 }
