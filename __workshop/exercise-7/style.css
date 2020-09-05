@@ -43,7 +43,7 @@ img {
 
 .cute {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: nowrap;
 }
 
@@ -60,9 +60,11 @@ img {
 }
 
 .box {
+  
   text-align: center;
   background: lightgrey;
   margin: 10px;
   padding: 10px;
   border: dashed grey 2px;
+  
 }
