@@ -2,7 +2,7 @@
 
 
 body{
-    font-family: Comic sans-serif;
+    font-family: "Comic Sans MS";
 }
 .title{
     font-size: 1.2em;
@@ -20,7 +20,7 @@ body{
 
 .content{
     font-size: 0.8em;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .emph{
