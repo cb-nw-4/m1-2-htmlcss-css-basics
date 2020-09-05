@@ -19,23 +19,42 @@ li {
 /* ADD CSS BELOW */
 
 body {
-}
+  background-color: white;
+  }
 
 h1,
 h2 {
+  font-family: 'bangers', cursive;
+  text-align: center;
+  margin: 10px;  
 }
 
 h1 {
+  font-size: 30px;  
+  font-weight: bold;
 }
 
 h2 {
+  font-size: 20px;
 }
 
 .row {
+  display: flex;
+  height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .col {
+  list-style-type: none;
+  background: lightgrey;  
+  float: left;
+  margin: 50px;
+  padding: 10px;
+  border: dashed 2px grey;    
 }
 
 .image {
+  width:  auto;
+  height: 200px;    
 }
