@@ -30,11 +30,15 @@ h2 {
   font-size: 1.8em;
 }
 
+.section {
+  margin-left: 20px;
+}
+
 .border {
   border: 1px solid black;
   background-color:  #F0F0F0;
-  padding: 10px;
-  width: 500px;
+  padding: 20px;
+  width: auto;
 }
 
 h3 {
@@ -44,4 +48,14 @@ h3 {
 
 .image {
   height: 150px;
+}
+
+.cute {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.last2 {
+  margin-left: 20px;
 }
