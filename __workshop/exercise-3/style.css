@@ -2,10 +2,7 @@ body {
     font-family: Comic Sans MS, sans-serif;
   }
   
-  h1 {
-    margin: 0;
-  }
-  
+  h1,
   p {
     margin: 0;
   }
