@@ -17,3 +17,43 @@ li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+  font-family: bangers;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin: 10px 0;
+}
+
+h2 {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+img {
+  height: 100px;
+  padding: 3px;
+}
+
+.cute {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.big {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: nowrap;
+}
+
+.box {
+  text-align: center;
+  background: lightgrey;
+  margin: 10px;
+  padding: 10px;
+  border: dashed grey 2px;
+}
