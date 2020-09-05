@@ -17,3 +17,37 @@ li {
 }
 
 /* ADD CSS BELOW */
+.section {
+  margin: 50px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bangers', sans-serif;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 1.5em;
+}
+.row {
+  display: flex;
+  justify-content: flex-start;
+}
+.animal {
+  list-style-type: none;
+  padding: 10px;
+  margin: 15px 15px 15px 0px;
+  border: dashed 2px darkgrey;
+  background-color: lightgrey;
+}
+.image {
+  max-width: 200px;
+  max-height: 200px;
+  padding: 5px;
+}
