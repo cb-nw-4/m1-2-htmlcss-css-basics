@@ -1,4 +1,4 @@
-/* minor CSS reset */
+  /* minor CSS reset */
 /* You should not need to change anything here */
 html,
 body,
@@ -19,23 +19,34 @@ li {
 /* ADD CSS BELOW */
 
 body {
-}
-
-h1,
-h2 {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  margin: 20px;
 }
 
 h1 {
+  font-size: 55px;
 }
 
 h2 {
+  font-size: 25px;
 }
 
 .row {
+  display: flex;
+  justify-content: space-around;
+  list-style: none; 
+  margin-top: 30px;
 }
 
 .col {
+  border: dashed 2px gray;
+  background-color: lightgray;
+  padding: 15px;
 }
 
 .image {
+  height: 200px;
+  margin-top: 15px;
+
 }
