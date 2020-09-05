@@ -1,11 +1,18 @@
 p {
+    font-size: 1.25em;    
 }
 
 .one {
+    background-color: pink;
+    margin: 0;    
 }
 
 .two {
+    margin: 0;
+    background-color: fuchsia;
 }
 
 .three {
+    margin: 0;
+    font-size: 5em;
 }
