@@ -4,4 +4,19 @@ body {
 
 button {
   /* Solve me */
+  padding: 25px;
+  border:blue; 
+  background-color: blue; 
+  color: white; 
+  border-radius: 15px;
+  transition: background-color 1s, border 1s, transform 0.3s;
+}
+
+button:hover{
+  background-color: darkblue; 
+  border:darkblue;
+}
+
+button:active { 
+  transform: scale(0.95,0.95); 
 }
