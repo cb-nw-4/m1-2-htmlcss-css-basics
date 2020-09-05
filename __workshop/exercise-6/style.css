@@ -19,16 +19,23 @@ li {
 /* ADD CSS BELOW */
 
 body {
+  box-sizing: border-box;
+  max-width:785px;
+  font-family: 'Bangers', cursive;
 }
 
 h1,
 h2 {
+  text-align: center;
+  
 }
 
 h1 {
+  font-size: 24px;
 }
 
 h2 {
+  padding: 10px 10px 10px 10px;
 }
 
 .row {
@@ -38,4 +45,15 @@ h2 {
 }
 
 .image {
+  width: auto;
+  height: 150px;
+}
+
+li{
+  border-style: dashed;
+  border-width: 1px;
+  display:inline-block;
+  margin: 25px 25px 25px 25px;
+  padding: 0px 10px 10px 10px;
+  background-color: lightgray;
 }
