@@ -1,11 +1,18 @@
 p {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
 }
 
 .one {
+    background: pink;
 }
 
 .two {
+    background: fuchsia;
 }
 
 .three {
+    font-size: 5em;
+    padding: 15px;
 }
