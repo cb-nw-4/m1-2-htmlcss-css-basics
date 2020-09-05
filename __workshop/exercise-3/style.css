@@ -1,1 +1,23 @@
-/* ...crickets... */
+* {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1em;
+    text-align: center;
+}
+
+.content {
+    font-family: comic sans ms;
+    font-size: 0.75em;
+}
+
+.emph {
+    font-style: oblique;
+}
