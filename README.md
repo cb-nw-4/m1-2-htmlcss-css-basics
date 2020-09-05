@@ -35,10 +35,10 @@ _Unless specified in the exercise, don't worry about the fonts. Some of the scre
 Properties you will likely need
 
 ```
-font-size
-font-style
+font-size- done
+font-style - done
 font-family
-text-align
+text-align-
 ```
 
 - You will need to use the _Comic Sans MS_ font-family
