@@ -1,15 +1,28 @@
+
 img {
   max-width: 300px;
 }
 
 .img1 {
+  position: static;
+  z-index: 1;
 }
 
 .img2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 
 .img3 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
 }
 
 .img4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
