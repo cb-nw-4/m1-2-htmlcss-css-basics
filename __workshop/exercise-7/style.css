@@ -36,6 +36,7 @@ img{
   padding:10px 15px 15px 15px;
   text-align: center;
   margin-right: 10px;
+  background-color:#eaeaee;
 }
 
 h1,h2,h3{
@@ -54,6 +55,6 @@ h2{
 
 }
 
-section{
+body{
   margin-left: 10px;
 }
