@@ -3,14 +3,17 @@ img {
 }
 
 .img1 {
-  position: absolute;
+  position: relative;
+  z-index: 2;
   top: 15px;
   left: 15px;
-  z-index: 2;
-
 }
 
 .img2 {
+  position: relative;
+  left: -300px;
+  top: -195px;
+  
 }
 
 .img3 {
@@ -21,8 +24,8 @@ img {
 
 .img4 {
   position: absolute;
-  z-index: 2;
   bottom: -175px;
-  right: 125px;
-  
+  right: 100px;
+  z-index: 2;
 }
+
