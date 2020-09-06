@@ -3,13 +3,24 @@ img {
 }
 
 .img1 {
+  z-index: 0;
 }
 
 .img2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .img3 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
 }
 
 .img4 {
+  position: absolute;
+  bottom: 0;
+  right: 100px; /* Initially set to 0 but due to the screen width of my pc, did not overlap with the dog image. */
 }
