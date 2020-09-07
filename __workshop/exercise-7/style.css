@@ -16,4 +16,55 @@ li {
   vertical-align: baseline;
 }
 
-/* ADD CSS BELOW */
+h1,
+h2,
+h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36pt;
+}
+
+h2 {
+  font-size: 24pt;
+  margin-left: 2em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 18pt;
+}
+
+.row {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: center;
+  box-sizing: content-box;
+  max-width: 75%;
+}
+
+.column {
+  max-width: 300px;
+  max-height: 300px;
+  flex: 1 100%;
+  background-color: #EAEAEA;
+  border: dashed gray;
+  padding: 2em;
+  margin: 1%;
+  list-style-type: none;
+}
+
+.image {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  object-fit: contain;
+}
+
+
