@@ -9,6 +9,13 @@ button {
   border-radius: 10px;
 }
 
+button:hover {
+  background-color: mediumblue;
+  color: white;
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+}
+
 button:active {
   background-color: darkblue;
   color: white;
@@ -22,5 +29,5 @@ button:focus {
   outline: none;
   text-decoration: underline;
   transition: transform 0.5s;
-  transition-timing-function: linear;
+  transition-timing-function: ease-out;
 }
