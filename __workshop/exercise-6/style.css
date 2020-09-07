@@ -38,12 +38,13 @@ h2 {
 }
 
 .row {
+  display: inline;
 }
 
 .col {
+  display: inline-block;
   margin: 0px 35px 0px 35px;
   list-style-type: none;
-  float: left;
   text-align: center;
   border: 1px dashed;
   background-color: gainsboro;

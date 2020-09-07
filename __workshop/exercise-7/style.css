@@ -17,3 +17,50 @@ li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+  max-width: 650px;
+}
+
+h1, h2 {
+  font-family: 'Bangers', cursive;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.animal-type {
+  font-size: 90%;
+  padding: 25px 0px 15px 0px;
+}
+
+.row {
+  display: inline;
+}
+
+.col {
+  display: inline-block;
+  margin: 0px 5px 0px 5px;
+  list-style-type: none;
+  text-align: center;
+  border: 1px dashed;
+  background-color: gainsboro;
+}
+
+.image-left {
+  max-height: 75px;
+  padding: 0px 2px 5px 10px;
+}
+
+.image-right {
+  max-height: 75px;
+  padding: 0px 10px 5px 2px;
+}
+
+.image-single {
+  max-height: 75px;
+  padding: 0px 10px 5px 10px;
+}
