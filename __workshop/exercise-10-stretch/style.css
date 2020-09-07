@@ -12,10 +12,11 @@ button {
 
 button:active {
   transform: scale(0.8);
-  
+  transition: ease 0.5s;
 }
 
 button:focus {
   outline: none;
   background-color: darkblue
+
 }
