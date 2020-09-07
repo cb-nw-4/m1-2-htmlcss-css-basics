@@ -2,6 +2,19 @@ body {
   padding: 40px;
 }
 
-button {
+button{
   /* Solve me */
+  color:white;
+  background-color: blue;
+  padding: 20px;
+  border-radius:10px;
+}
+
+button:focus{
+  background-color: darkblue;
+}
+
+button:active{
+  transform: scale(0.8, 0.8);
+  transition-property: width;
 }
