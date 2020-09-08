@@ -17,3 +17,55 @@ li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+}
+
+h1,
+h2,h3 {
+  font-family: 'Bangers', Courier, monospace;
+  text-align: center;
+  
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Bangers', Courier, monospace;
+  text-align: left;
+  padding-left: 20px;
+
+
+}
+h3{
+  font-size: 20px;
+}
+
+.row {
+  margin: 20px;
+  padding: 0px 0px 100px 0px;
+ 
+
+
+}
+
+.col {
+  border: black;
+  border-style: dashed;
+padding: 10px;
+background-color: grey;
+display: inline-block;
+;
+
+}
+
+.image {
+  height: 120px;
+  padding: 5px;
+
+}

@@ -23,19 +23,42 @@ body {
 
 h1,
 h2 {
+  font-family: 'Bangers', Courier, monospace;
+  text-align: center;
 }
 
 h1 {
+  font-size: 48px;
+
 }
 
 h2 {
+  font-size: 20px
 }
 
 .row {
+  margin: 20px;
+  padding: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+ 
+
+
 }
 
 .col {
+  border: black;
+  border-style: dashed;
+padding: 20px;
+background-color: grey;
+height: 250px;
+
 }
 
 .image {
+  height: 200px;
+  padding: 10px;
+
 }
