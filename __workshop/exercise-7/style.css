@@ -17,3 +17,61 @@ li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+  margin: 0px 100px;
+  /* text-align: center; */
+  }
+
+img {
+  max-height: 100px;
+  max-width: auto;
+}
+
+h1 {
+  font-family:  'Bangers', cursive;
+  font-size: 2em;
+  margin: 20px 15px;
+  text-align: center;
+}
+
+h2 {
+  font-family:  'Bangers', cursive;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 1.3em;
+}
+
+h3 {
+  font-family:  'Bangers', cursive;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  margin: 2px;
+  padding: 15px 15px 15px 15px;
+  border: black;
+  border-style: dashed;
+  border-width: 2px;
+  display: inline-block;
+  background: lightgray;
+  text-align: center;
+
+}
+
+.underRow {
+  display: flex;
+  justify-content: space-between;
+}
+.underRow .img {
+  padding: 0px 5px 0px 0px
+}
+
+.section {
+  display: flex;
+  justify-content: flex-start;
+}

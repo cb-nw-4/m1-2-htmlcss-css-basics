@@ -1,1 +1,16 @@
 /* ...crickets... */
+.title {
+    font-size: 1.5em;
+    font-style: normal;
+    text-align: center;
+    /* cancelling default properties*/
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+.subtitle {
+    text-align: center;
+    margin-top: 0px;
+}
+.content {
+    font-family: Comic Sans MS, sans-serif;
+}

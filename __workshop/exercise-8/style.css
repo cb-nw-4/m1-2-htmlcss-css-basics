@@ -1,15 +1,23 @@
 img {
   max-width: 300px;
+  /* display: flex;
+  justify-content: space-between; */
+
 }
 
 .img1 {
 }
 
 .img2 {
+  visibility: hidden;
+  display: inline;
 }
 
 .img3 {
+  visibility: hidden;
+  display: inline;
 }
 
 .img4 {
+  /* display: inline-block; */
 }

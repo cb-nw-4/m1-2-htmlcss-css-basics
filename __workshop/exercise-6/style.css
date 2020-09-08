@@ -19,23 +19,43 @@ li {
 /* ADD CSS BELOW */
 
 body {
-}
-
-h1,
-h2 {
+margin: 0px 100px;
 }
 
 h1 {
+  font-family:  'Bangers', cursive;
+  font-size: 2em;
+  margin: 20px 15px;
+  text-align: center;
 }
 
 h2 {
+  font-family:  'Bangers', cursive;
+
 }
 
+
+/* THIS IS ul */
 .row {
+  display: flex;
+  justify-content: space-around;
+
 }
 
+/* THIS IS li*/
 .col {
+  margin: 2px;
+  padding: 15px 15px 15px 15px;
+  border: black;
+  border-style: dashed;
+  border-width: 2px;
+  display: inline-block;
+  background: lightgray;
+  text-align: center;
+
 }
 
 .image {
+    max-height: 100px;
+    width: auto;
 }
