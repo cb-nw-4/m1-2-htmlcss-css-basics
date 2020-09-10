@@ -1,4 +1,4 @@
-#centered {
+.centered {
   text-align: center;
 }
 
@@ -23,7 +23,7 @@ subtitle {
   background: grey;
 }
 
-monospaced {
+.monospaced {
   font-family: monospace;
 }
 
