@@ -19,23 +19,40 @@ li {
 /* ADD CSS BELOW */
 
 body {
+  display: inline;
 }
-
-h1,
-h2 {
+.hline { 
+  width:100%; height:1px; background: #fff 
 }
 
 h1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 32px;
 }
 
 h2 {
+  font-weight: bold;
+  text-align: center;
+  padding: 1px;
 }
 
 .row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
 }
 
 .col {
+  border: 2px dashed;
+  border-width: 1px;
+  padding: 10px;
+  background: #E8E8E8;
 }
 
 .image {
+  display: flex;
+  max-width: 100px;
+  max-height: 100px;
 }
