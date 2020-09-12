@@ -29,6 +29,7 @@ h1 {
   text-align: center;
   font-size: 45px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 32px;
 }
 
 h2 {
@@ -44,7 +45,7 @@ h2 {
 }
 
 .col {
-  border-style: dashed;
+  border: 2px dashed;
   border-width: 1px;
   padding: 10px;
   background: #E8E8E8;
